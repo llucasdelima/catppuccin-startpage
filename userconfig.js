@@ -56,9 +56,9 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "Lofi Music",
+              url: "https://loficafe.net/",
+              icon: "vinyl",
               icon_color: palette.peach,
             },
           ],
@@ -96,9 +96,9 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "RSS",
+              url: "https://miniflux.pcdomanual.com/unread",
+              icon: "rss",
               icon_color: palette.green,
             },
             {
