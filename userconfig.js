@@ -28,7 +28,7 @@ const default_configuration = {
   search: {
     engines: {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
-      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+      d: ["https://noai.duckduckgo.com/?q=&noai=1&k1=-1&k5=1&kad=en_US&kaj=m&kak=-1&kao=-1&kaq=-1&kau=-1&kav=1&kax=-1&kn=1&kp=-2&kv=-1&kz=-1&ia=web", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
     default: "d",
@@ -39,7 +39,7 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://www.lucasdelima.com",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -50,16 +50,22 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "linkding",
+              url: "https://linkding.pcdomanual.com/bookmarks",
+              icon: "bookmark",
               icon_color: palette.green,
+            },
+            {
+              name: "Wallabag",
+              url: "https://wallabag.pcdomanual.com/",
+              icon: "letter-w",
+              icon_color: palette.peach,
             },
             {
               name: "Lofi Music",
               url: "https://loficafe.net/",
               icon: "vinyl",
-              icon_color: palette.peach,
+              icon_color: palette.red,
             },
           ],
         },
@@ -130,34 +136,34 @@ const default_configuration = {
       ],
     },
     {
-      name: "dev",
+      name: "gaming",
       background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
-          name: "development",
+          name: "stores",
           links: [
             {
-              name: "github",
-              url: "https://github.com",
-              icon: "brand-github",
-              icon_color: palette.green,
+              name: "steam",
+              url: "https://store.steampowered.com/",
+              icon: "brand-steam",
+              icon_color: palette.blue,
             },
             {
-              name: "stackoverflow",
+              name: "gog",
               url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              icon: "device-gamepad",
               icon_color: palette.peach,
             },
             {
-              name: "duckdb",
+              name: "epic",
               url: "https://app.motherduck.com",
-              icon: "file-type-sql",
+              icon: "device-gamepad-2",
               icon_color: palette.red,
             },
             {
-              name: "collab",
+              name: "prime",
               url: "https://colab.research.google.com",
-              icon: "notebook",
+              icon: "brand-amazon",
               icon_color: palette.mauve,
             },
           ],
